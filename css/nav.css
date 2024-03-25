@@ -1,0 +1,21 @@
+/* Nest Nav */
+nav {
+  position: relative;
+  left: 300px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  color: rgb(255, 255, 255);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=nav.css.map */

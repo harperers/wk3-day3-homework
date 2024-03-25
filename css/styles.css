@@ -1,0 +1,85 @@
+/* Nest Nav */
+nav {
+  position: relative;
+  left: 300px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  color: rgb(255, 255, 255);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Variables */
+/* Nest Main */
+body {
+  background-color: rgb(218, 170, 14);
+}
+
+main {
+  width: 80%;
+  min-height: 535px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+}
+main #intro-text {
+  background-color: rgb(212, 213, 216);
+  height: 770px;
+  width: 100%;
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+}
+main #intro-text span {
+  display: block;
+  margin-top: 20%;
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+}
+main #intro-text h3 {
+  display: block;
+  margin-top: 10%;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+}
+main #intro-text p {
+  display: block;
+  margin-top: 10%;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+main #intro-text .submit-buttton {
+  background-color: rgb(218, 170, 14);
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+main #intro-image {
+  background-image: url("images/louisiana-barbecued-shrimp.webp");
+  background-size: cover;
+  height: 90%;
+  position: relative;
+  width: 60%;
+}
+
+/*# sourceMappingURL=styles.css.map */

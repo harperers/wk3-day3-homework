@@ -1,1 +1,20 @@
+@import "colors";
 /* Nest Nav */
+nav {
+    position: relative;
+    left:300px;
+    ul {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        li {
+            color: $color3;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        li a {
+            color: $color3;
+            text-decoration: none;  
+        }  
+    }
+}

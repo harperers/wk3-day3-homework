@@ -1,10 +1,74 @@
+@import "nav";
+@import "colors";
+
 /* Variables */
+$body-font: Arial, Helvetica, Sans-Serif;
+$header-font: 'Sacramento', cursive;
 
 
-/* Nest Main */
-main {
-    width: 1350px;
-    min-height:535px;
+@mixin button {
+    background-color: $color1;
+    color: $color3;
+    width: 100px;
+    height:40px;
+    margin-top: 50px;
+    margin-left: 400px;
+    cursor: pointer;
 }
+/* Nest Main */
+body {
+    background-color: $color1;
+}
+main {
+    width: 80%;
+    min-height:535px;
+    background-color: $color3;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1em;
+    
+    #intro-text {
+        background-color: $color4;
+        height: 770px;
+        width: 100%;
+        display: flexbox;
+        justify-content: center;
+        align-content: center;
+        span {
+            display: block;
+            margin-top: 20%;
+            font-family: $header-font;
+            font-size: 40px;
+            width: 100%;
+            text-align: center;
+        }
+        h3 {
+            display: block;
+            margin-top: 10%;
+            font-family: $body-font;
+            font-size: 40px;
+            width: 100%;
+            text-align: center
+        }
+        p {
+            display: block;
+            margin-top: 10%;
+            font-family: $body-font;
+            font-size: 14px;
+            width: 100%;
+            text-align: center
+        }
+        .submit-buttton {
+            @include button;
+        }
+    }
 
-// Mixin or Extend for button
+    #intro-image {
+        background-image: url('images/louisiana-barbecued-shrimp.webp');
+        background-size: cover;
+        height: 90%;
+        position: relative;
+        width: 60%;
+    }
+}
